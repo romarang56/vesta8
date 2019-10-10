@@ -1,3 +1,5 @@
+let server_name = 'http://dp82.my';
+
 let gulp = require('gulp'),
   sass = require('gulp-sass'),
   sourcemaps = require('gulp-sourcemaps'),
@@ -57,7 +59,7 @@ function js () {
 // Static Server + watching scss/html files
 function serve () {
   browserSync.init({
-    proxy: 'http://dp8.my',
+    proxy: server_name,
   })
 
   gulp.watch([paths.scss.watch, paths.scss.bootstrap], styles).on('change', browserSync.reload)
