@@ -13,3 +13,11 @@
         $ npm -i 
         $ gulp 
 
+Выключить дебаг
+------------
+
+Для выключения достаточно в файле ./sites/default/settings.php закомментировать строку
+
+        if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+            include $app_root . '/' . $site_path . '/settings.local.php';
+        }

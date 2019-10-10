@@ -1,0 +1,13 @@
+/sites/default/files/
+/core/
+/vendor/
+/autoload.php
+/index.php
+/INSTALL.txt
+/LICENSE.txt
+/README.txt
+/robots.txt
+/update.php
+/.htaccess
+/.ht.router.php
+/themes/vesta/node_modules/
